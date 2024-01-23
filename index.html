@@ -20,7 +20,11 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
     <link rel="stylesheet" href="style.css" />
+    
     <title>Work Day Scheduler</title>
   </head>
 
@@ -32,9 +36,109 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <table clas="time-block" >
+        <tr class="row" >
+          <td><h5 class="hour">9AM</h5></td>
+          <td><textarea class="description past present future" ></textarea></td>
+          <td><button class="saveBtn" id="1">Save</button></td>
+        </tr>
+        <tr class="row" >
+          <td><h5 class="hour">10AM</h5></td>
+          <td ><textarea class="description past present future" ></textarea></td>
+          <td><button class="saveBtn" id="2">Save</button></td>
+        </tr>
+        <tr class="row" >
+          <td><h5 class="hour">11AM</h5></td>
+          <td ><textarea class="description past present future" ></textarea></td>
+          <td><button class="saveBtn" id="3">Save</button></td>
+        </tr>
+        <tr class="row" >
+          <td><h5 class="hour">12AM</h5></td>
+          <td ><textarea class="description past present future" ></textarea></td>
+          <td><button class="saveBtn" id="4">Save</button></td>
+        </tr>
+        <tr class="row" >
+          <td><h5 class="hour">1PM</h5></td>
+          <td ><textarea class="description past present future" ></textarea></td>
+          <td><button class="saveBtn" id="5">Save</button></td>
+        </tr>
+        <tr class="row" >
+          <td><h5 class="hour">2PM</h5></td>
+          <td ><textarea class="description past present future" ></textarea></td>
+          <td><button class="saveBtn" id="6">Save</button></td>
+        </tr>
+        <tr class="row" >
+          <td><h5 class="hour">3PM</h5></td>
+          <td ><textarea class="description past present future" ></textarea></td>
+          <td><button class="saveBtn" id="7">Save</button></td>
+        </tr>
+        <tr class="row" >
+          <td><h5 class="hour">4PM</h5></td>
+          <td><textarea class="description past present future" ></textarea></td>
+          <td><button class="saveBtn" id="8">Save</button></td>
+        </tr>
+
+        <!-- <div class="row">
+          <div class="hour"><header>10AM</header></div>
+          <textarea class="description"> AAA</textarea>
+          <button class="">
+            <img class ="saveBtn row" src="./image/save-icon.png" alt="Save-icon" />
+          </button>
+        </div>
+        <div class="">
+          <h3 class="hour row">11AM</h3>
+          <div class="row description"> AAA</div>
+          <button class="saveBtn">
+            <img class ="saveBtn row" src="./image/save-icon.png" alt="Save-icon" />
+          </button>
+        </div>
+        <div class="">
+          <h3 class="hour row" >12PM</h3>
+          <div class="row"> AAA</div>
+          <button class="saveBtn">
+            <img class ="saveBtn row" src="./image/save-icon.png" alt="Save-icon" />
+          </button>
+        </div>
+        <div class="">
+          <h3 class="hour row" >1PM</h3>
+          <div class="row"> AAA</div><button class="saveBtn">
+            <img class ="saveBtn row" src="./image/save-icon.png" alt="Save-icon" />
+          </button><button class="saveBtn" src=""></button>
+        </div>
+        <div class="">
+          <h3 class="hour row">2PM</h3>
+          <div class="row"> AAA</div>
+          <button class="saveBtn">
+            <img class ="saveBtn row" src="./image/save-icon.png" alt="Save-icon" />
+          </button>
+        </div>
+        <div class="">
+          <h3 class="hour row">3PM</h3>
+          <div class="row"> AAA</div>
+          <button class="saveBtn">
+            <img class ="saveBtn row" src="./image/save-icon.png" alt="Save-icon" />
+          </button>
+        </div>
+        <div class="">
+          <h3 class="hour row">4PM</h3>
+          <div class="row"> AAA</div>
+          <button class="saveBtn">
+            <img class ="saveBtn row" src="./image/save-icon.png" alt="Save-icon" />
+          </button>
+        </div>
+        <div class="">
+          <h3 class="hour row">5PM</h3>
+          <div class="row"> AAA</div>
+          <button class="saveBtn">
+            <img class ="saveBtn row" src="./image/save-icon.png" alt="Save-icon" />
+          </button>
+        </div> -->
+      </tbody>
+      </table>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
